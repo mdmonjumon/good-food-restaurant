@@ -19,6 +19,7 @@ body {
     background: rgb(82, 195, 3);
     padding: 21px 32px;
     border: none;
+    cursor: pointer;
 }
 
 /* hero section styles */
