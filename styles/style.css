@@ -100,7 +100,7 @@ body {
     margin-bottom: 48px;
 }
 
-.card-container{
+.card-container {
     display: flex;
     gap: 24px;
 }
@@ -149,4 +149,63 @@ body {
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+}
+
+/* good food section styles */
+.food-section {
+    display: flex;
+    align-items: center;
+}
+
+.food-section .food-img-container {
+    max-width: 960px;
+}
+
+.food-section .food-img-container img {
+    width: 100%;
+}
+
+.food-info-container {
+    /* width: 830px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    gap: 24px;
+
+}
+
+.food-title {
+    max-width: 805px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.food-info {
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.food-short-info {
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 0.7;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.social-icons {
+    
 }
